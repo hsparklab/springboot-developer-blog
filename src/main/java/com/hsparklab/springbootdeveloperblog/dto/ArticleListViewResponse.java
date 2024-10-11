@@ -10,7 +10,7 @@ public class ArticleListViewResponse {
     private final Long id;
     private final String title;
     private final String content;
-    private LocalDateTime createdAt;
+    private final LocalDateTime createdAt;
 
     public ArticleListViewResponse (Article article){
         this.id = article.getId();
